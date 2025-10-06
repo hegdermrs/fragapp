@@ -1,0 +1,152 @@
+{
+  "canvas": {
+    "width": 768,
+    "height": 768,
+    "template_path": "assets/template.png"
+  },
+  "colors": {
+    "primary": "#FFFFFF",
+    "accent": "#FFE74A",
+    "muted": "#DCDCDC"
+  },
+  "fonts": {
+    "headline": {
+      "path": null,
+      "size": 52
+    },
+    "subhead": {
+      "path": null,
+      "size": 30
+    },
+    "body": {
+      "path": null,
+      "size": 24
+    },
+    "small": {
+      "path": null,
+      "size": 20
+    }
+  },
+  "layout": {
+    "title": {
+      "xy": [
+        40,
+        60
+      ],
+      "max_width": 320,
+      "style": "headline",
+      "accent_words": 1
+    },
+    "longevity_header": {
+      "xy": [
+        420,
+        80
+      ],
+      "style": "subhead",
+      "text": "LONGEVITY"
+    },
+    "longevity_value": {
+      "xy": [
+        420,
+        120
+      ],
+      "style": "headline"
+    },
+    "projection_header": {
+      "xy": [
+        420,
+        210
+      ],
+      "style": "subhead",
+      "text": "PROJECTION"
+    },
+    "projection_value": {
+      "xy": [
+        420,
+        250
+      ],
+      "style": "headline"
+    },
+    "divider": {
+      "xy": [
+        410,
+        180
+      ],
+      "to": [
+        720,
+        180
+      ]
+    },
+    "year": {
+      "xy": [
+        40,
+        640
+      ],
+      "style": "small",
+      "label": "YEAR \u2014 "
+    },
+    "rating": {
+      "xy": [
+        200,
+        640
+      ],
+      "style": "small",
+      "label": "RATING \u2014 "
+    },
+    "description": {
+      "xy": [
+        40,
+        200
+      ],
+      "max_width": 320,
+      "style": "body",
+      "line_spacing": 6
+    },
+    "right_col": {
+      "when": {
+        "header_xy": [
+          640,
+          100
+        ],
+        "list_xy": [
+          640,
+          140
+        ],
+        "items_spacing": 28
+      },
+      "where": {
+        "header_xy": [
+          640,
+          240
+        ],
+        "list_xy": [
+          640,
+          280
+        ],
+        "items_spacing": 28
+      },
+      "profile": {
+        "header_xy": [
+          640,
+          380
+        ],
+        "list_xy": [
+          640,
+          420
+        ],
+        "items_spacing": 28
+      },
+      "notes": {
+        "header_xy": [
+          640,
+          520
+        ],
+        "list_xy": [
+          640,
+          560
+        ],
+        "items_spacing": 28
+      }
+    }
+  }
+}
